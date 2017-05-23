@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 72px;
+	font-weight: bold;
+	color: #fff;
+}
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+}
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.wrapper {
+	background-color: #f8f8f8;
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
+/*=================START=HEADER================*/
+.header {
+	background-image: url(../images/header-bg.jpg);
+	height: 800px;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content {
+	height: 195px;
+	text-align: center;
+}
+.header-content h1 {
+	padding-bottom: 28px;
+}
+.header-content h3 {
+	padding-bottom: 48px;
+}
+/*==================END=HEADER================*/
+
+/*==================START=CONTENT=============*/
+.content  {
+	width: 1064px;
+	margin: 0 auto;
+	background-color: #f8f8f8;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 95px;
+}
+.text {
+	width: 45%;
+}
+.row:first-child {
+	padding-top: 35px;
+}
+.row:last-child {
+	padding-bottom: 35px;
+}
+.row h2 {
+	margin: 70px 0 20px 0;
+}
+/*==================END=CONTENT================*/
+
+/*==================START=FOOTER=============*/
+.footer {
+	background-image: url(../images/footer-bg.jpg);
+	height: 531px;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+}
+.footer-content {
+	width: 1064px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__text {
+	width: 435px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.social__item {
+	width: 163px;
+	height: 50px;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.social__item:last-child {
+	margin-right: 0;
+}
+
+.twitter, .google, .vk {
+	text-indent: -5000px;
+	cursor: pointer;
+}
+
+.twitter {
+	background-image: url(../images/twitter-light.png);
+	
+}
+.google {
+	background-image: url(../images/google-light.png);
+}
+.vk {
+	background-image: url(../images/vk-light.png);
+}
+.twitter:hover {
+	background-image: url(../images/twitter-dark.png);
+
+}
+.google:hover {
+	background-image: url(../images/google-dark.png);
+}
+.vk:hover {
+	background-image: url(../images/vk-dark.png);
+}
+
+
+
+
+
