@@ -1,1 +1,1 @@
-# landing_page
+Simple responsive landing page with parallax effect on header
